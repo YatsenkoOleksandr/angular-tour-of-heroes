@@ -13,6 +13,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { InMemoryDataService } from './in-memory-data.service';
 import { AddHeroComponent } from './add-hero/add-hero.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { AdDirective } from './ad.directive';
+import { AdBannerComponent } from './ad-banner/ad-banner.component';
+import { HeroJobAdComponent } from './hero-job-ad/hero-job-ad.component';
+import { HeroProfileComponent } from './hero-profile/hero-profile.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +27,10 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     DashboardComponent,
     AddHeroComponent,
     HeroSearchComponent,
+    AdDirective,
+    AdBannerComponent,
+    HeroJobAdComponent,
+    HeroProfileComponent,
   ],
   imports: [
     BrowserModule,
